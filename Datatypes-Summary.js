@@ -34,6 +34,11 @@ let myObj = {
     Age : 23
 }
 
+{
+    marks: 100
+    isdone : false
+}
+
 const myFunction = function(){
     conole.log("Hello, Mohit")
 }
