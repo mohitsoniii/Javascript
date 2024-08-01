@@ -46,3 +46,18 @@ const workoutName = new String("Bench-Press")
 // ***********    REPLACE     **********//
 // const url = "https://www.geeksforgeeks.org/user%50/mohitsoni18/"
 // console.log(url.replace('%50', '#'))
+
+
+//  *********      INCLUDES    ******* //
+const str2 = "Lat-Pull-Down"
+// console.log(str2.includes('-'));
+
+
+// *********     SPLIT      ********* //
+// console.log(str2.split('-',2));
+
+// *******     MATCH        *********//
+// const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
+// const regex = /[A-Z]/g;
+// const found = paragraph.match(regex);
+// console.log(found);
