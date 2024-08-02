@@ -62,7 +62,7 @@ const paragraph = '        The quick brown fox jumps over the lazy dog. It barke
 // const found = paragraph.match(regex);
 // console.log(found);
 
-console.log(paragraph.trimEnd());
-console.log(paragraph);
-console.log(paragraph.trimStart());
-console.log(paragraph);
+// console.log(paragraph.trimEnd());
+// console.log(paragraph);
+// console.log(paragraph.trimStart());
+// console.log(paragraph);
