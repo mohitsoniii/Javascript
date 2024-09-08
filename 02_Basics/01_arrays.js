@@ -20,7 +20,7 @@ arrHeros.pop()
 arrHeros.unshift("Mohit")    // inserts element at initial position. (at 0th index)
 // console.log(arrHeros);
 
-arrHeros.shift()
+arrHeros.shift()             // deletes element from the starting position (0th index)
 // console.log(arrHeros);
 
 
@@ -32,7 +32,7 @@ arrHeros.shift()
 // console.log(arrHeros.indexOf("Mohit"));
 
 
-const newArr = arrHeros.join()
+const newArr = arrHeros.join()      // converts a array into a string.
 
 // console.log(arrHeros);
 // console.log(typeof arrHeros);
@@ -49,7 +49,7 @@ console.log("");
 const sliceHeros = arrHeros.slice(2,5)     // Last element is Exclusive and orginal matter doesn't changes. 
 console.log("Sliced-Array", sliceHeros);
 console.log("Original", arrHeros);
-
+console.log(" ");
 const spliceHeros = arrHeros.splice(2,5)   // Last element is Inclusive and original matter changes.
 console.log("Spliced-Array", spliceHeros);
 console.log("Original", arrHeros);
