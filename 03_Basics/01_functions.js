@@ -118,14 +118,12 @@ showData({
 
 
 
-
 //  *****************  ARRAYS 
-
 
 const itemPrices = [100,200,300,400,500]
 
 function showItemData(anyArray){
     console.log(anyArray[2]);
 }
-showItemData(itemPrices); //will run successfully, but we can also make it like given below.
+showItemData(itemPrices);//will run successfully, but we can also make it like given below.
 showItemData([100,200,300,400,500]);
