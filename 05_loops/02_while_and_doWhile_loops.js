@@ -5,23 +5,31 @@
 let i = 0
 while (i <= 10) {
     // console.log(i);
-    i++
-} // will print numbers from 0 to 10
+    i = i + 2
+} // will print even numbers from 0 to 10
 
-myArray = [2,4,6,2,9,0,5,43]
+myArray = ['Ironman', 'Cap-Amerika', 'Thor', 'Hulk']
 
 let j = 0
 while (j < myArray.length) {
     // console.log(myArray[j]);
     j++
-}
+}  // will print each element of array
 
 
 
 // >>>>>>>>>>>>>>>>>>>>> Do While loops <<<<<<<<<<<<<<<<
 
-i = 1
+let score = 1
 do {
-    console.log(i);
-    i++
-} while (i <= 10);
+    console.log(`Score is ${score}`);
+    score++
+} while (score <= 10);
+
+console.log('---------------------');
+
+score = 11
+do {
+    console.log(`Score is ${score}`);
+    score++
+} while (score <= 10);   // in this condition only 11 will print.
