@@ -105,4 +105,4 @@ countryMap.set('IN', 'India')
 
 for (const key in countryMap) {
     console.log(key);
-}
+}    // maps are not iteratable. will give nothing
