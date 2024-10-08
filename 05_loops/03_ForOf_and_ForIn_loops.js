@@ -29,7 +29,7 @@ map.set('USA', 'United States')
 map.set('FR', 'France')
 map.set('IN', 'India')  // Map does not add duplicate values
 
-// console.log(map);
+console.log(map);
 
 for (const [anything] of map) {
     // console.log(anything);
