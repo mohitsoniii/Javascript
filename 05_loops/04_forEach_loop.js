@@ -53,3 +53,7 @@ employee.forEach( (person) => {
     console.log(person.id +":"+person.empName);
 })
 
+/*  
+    forEach loops does not returns any values
+    for returning we use filter and reduce.
+*/
