@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM | Chai aur Code</title>
+</head>
+<body style="background-color:cadetblue; color: black; ">
+    
+</body>
+
+<script> 
+    const H1 = document.createElement('h1')
+    H1.innerHTML = 'Main Heading'
+
+    const Div = document.createElement('div')
+    Div.className = 'main'
+    Div.id = 'myId'
+    Div.setAttribute('title','Kuch bhi')
+    Div.style.backgroundColor = 'Orange'
+    Div.style.padding = '5px'
+    Div.appendChild(H1);
+
+    // Div.innerText = 'this is simple'
+    const addText = document.createTextNode('this is simple');
+    Div.appendChild(addText)
+
+    document.body.appendChild(Div)
+    // console.log(Div);
+</script>
+</html>
