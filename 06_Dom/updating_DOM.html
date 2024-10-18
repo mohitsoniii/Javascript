@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+ </head>
+ <body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+ </body>
+<script>
+    // adding list elements in ul with class name language
+    function addLang(langName) {
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`    // in innerHTML we have to traverse the whole tree for adding an element.
+
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLang('Python')
+    addLang('Java')
+
+    function addLangOptimally(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName)) // this will be optimal , because this will simply create a text node and will simply append to the last , we don't have to traverse the whole tree.
+
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLangOptimally('TypeScript')
+    addLangOptimally('goLang')
+    
+
+
+    // Edit or update
+    function updateLang(langName) {
+        const secondChild = document.querySelector('li:nth-child(2)')
+        // secondChild.innerHTML = `${langName}`    // again tree traveral, not optimized.
+
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        
+        secondChild.replaceWith(li)
+    }
+    updateLang('C+++')
+
+    // Edit first element
+    const firstChild = document.querySelector('li:first-child')
+    firstChild.outerHTML = '<li>Ruby</li>'
+
+
+    // Remove or Delete
+    const lastChild = document.querySelector('li:last-child')
+    lastChild.remove()
+    
+</script>
+ </html>
