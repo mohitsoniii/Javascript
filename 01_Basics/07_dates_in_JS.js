@@ -10,10 +10,12 @@ let myDate = new Date()
 // console.log(myDate.toJSON());
 // console.log(myDate.toLocaleString('en-IN'));
 
-// let myCreatedDate = new Date(2024,7,6, 1, 15, 25, 44)
+let myCreatedDates = new Date(2024,0,6, 1, 15, 25, 44)
 let myCreatedDate = new Date("01-14-2024")
 // console.log(myCreatedDate.toString());
 // console.log(myCreatedDate.toLocaleString());
+// console.log(myCreatedDates.toString());
+// console.log(myCreatedDates.toLocaleString());
 
 let myTimeStamp = Date.now()
 
@@ -27,11 +29,11 @@ let newDate = new Date()
 // console.log(newDate.getMonth() + 1);
 // console.log(newDate.getDay());
 
-des = `Today is ${newDate.toDateString()}, and the day is ${newDate.getDay()}`
-// console.log(des);
+// des = `Today is ${newDate.toDateString()}, and the day is ${newDate.getDay()}`
+// // console.log(des);
 
-newDate.toLocaleString('default', {
-    weekday : "long",
-    dateStyle : "full"  
-})
-console.log(newDate.toLocaleString);
+// newDate.toLocaleString('default', {
+//     weekday : "long",
+//     dateStyle : "full"  
+// })
+// console.log(newDate.toLocaleString);

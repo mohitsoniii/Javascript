@@ -16,9 +16,9 @@ const bigNumber = 956458956n
 const id_1 = Symbol('123')
 const id_2 = Symbol('123')
 
-console.log(id_1 === id_2);
+// console.log(id_1 === id_2);
 
-console.table([typeof marks, typeof marksValue, typeof isLoggedIn, typeof outSideTemp, typeof userEmail, typeof bigNumber, typeof id_1, typeof id_2])
+// console.table([typeof marks, typeof marksValue, typeof isLoggedIn, typeof outSideTemp, typeof userEmail, typeof bigNumber, typeof id_1, typeof id_2])
 
 
 
@@ -43,4 +43,4 @@ const myFunction = function(){
     conole.log("Hello, Mohit")
 }
 
-console.table([typeof Heros, typeof myObj, typeof myFunction])
+// console.table([typeof Heros, typeof myObj, typeof myFunction])

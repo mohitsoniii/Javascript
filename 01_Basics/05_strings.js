@@ -15,7 +15,9 @@ const age = 24
 
 
 // another way of declaring the strings
+
 const workoutName = new String("Bench-Press")
+// console.log(workoutName, typeof workoutName);
 
 // console.log(workoutName[2]);
 // console.log(workoutName.__proto__);
@@ -49,7 +51,7 @@ const workoutName = new String("Bench-Press")
 
 
 //  *********      INCLUDES    ******* //
-// const str2 = "Lat-Pull-Down"
+const str2 = "Lat-Pull-Down"
 // console.log(str2.includes('-'));
 
 
@@ -57,7 +59,7 @@ const workoutName = new String("Bench-Press")
 // console.log(str2.split('-',2));
 
 // *******     MATCH        *********//
-const paragraph = '        The quick brown fox jumps over the lazy dog. It barked.       ';
+// const paragraph = '        The quick brown fox jumps over the lazy dog. It barked.       ';
 // const regex = /[A-Z]/g;
 // const found = paragraph.match(regex);
 // console.log(found);

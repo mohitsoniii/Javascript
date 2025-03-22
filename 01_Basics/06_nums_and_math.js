@@ -13,11 +13,11 @@ const balance = new Number(100)
 const num = 123.8555
 const num2 = 22.8555
 
-// console.log(num.toPrecision(2));
-// console.log(num2.toPrecision(1));
-// console.log(num2.toPrecision(2));
-// console.log(num2.toPrecision(3));
 // console.log(num2.toPrecision(4));
+// console.log(num2.toPrecision(3));
+// console.log(num2.toPrecision(2));
+// console.log(num2.toPrecision(1));
+// console.log(num.toPrecision(2));
 
 const hundreads = 10000000
 // console.log(hundreads.toLocaleString('en-IN'));
@@ -33,7 +33,7 @@ Number
 
 // +++++++++++++++++++++++++   Maths   +++++++++++++++++++++++ //
 
-console.log(Math);
+// console.log(Math);
 
 // console.log(Math.abs(-5));
 // console.log(Math.abs(5));
@@ -48,12 +48,12 @@ console.log(Math);
 // console.log(Math.max(4,6,52,78,62));
 
 
-console.log(Math.random());
+// console.log(Math.random());
 
-console.log(Math.random()*10);
-console.log(((Math.random())*10) + 1);    // Minimum value for this line will be 1.
+// console.log(Math.random()*10);
+// console.log(((Math.random())*10) + 1);    // Minimum value for this line will be 1.
 
-const min = 10
-const max = 20
+// const min = 10
+// const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)  // it will always give the value between Max and Min.
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min)  // it will always give the value between Max and Min.
