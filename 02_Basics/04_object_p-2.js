@@ -58,5 +58,5 @@ const users = [
 // console.log(Object.entries(tinderUser));  // will give pair of keys and values of an object in an array.
 
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"))  //will give true
-console.log(tinderUser.hasOwnProperty("isLogged"))  //will give false
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"))  //will give true
+// console.log(tinderUser.hasOwnProperty("isLogged"))  //will give false

@@ -34,7 +34,6 @@ function loginUserMessage(username){
     }
     return `${username} just logged in !!`
 }
-
 // console.log(loginUserMessage());  // won't give any error but will give undefined.
 
 // console.log(loginUserMessage(' ')); // will consider it as a empty string.
@@ -113,9 +112,6 @@ showData({
     Username : 'Mohit',
     Age : 23
 });
-
-
-
 
 
 //  *****************  ARRAYS 

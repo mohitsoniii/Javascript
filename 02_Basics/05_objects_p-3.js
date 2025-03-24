@@ -1,6 +1,6 @@
 // ********** Destructuring  
 
-const course = {
+let course = {
     name: "Js in Hindi",
     price: 999,
     courseInstructor : "Hitesh Choudary"
@@ -8,7 +8,7 @@ const course = {
 
 // course.courseInstructor 
 
-const {courseInstructor : instructor} = course     //destructuring
+let {courseInstructor: instructor} = course     //destructuring
 
 // console.log(courseInstructor);
 console.log(instructor);

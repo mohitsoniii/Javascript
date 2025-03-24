@@ -7,7 +7,7 @@ const user = {
 
     welcomeMessage: function(){
         console.log(`${this.username}, welcome to website`);
-        // console.log(this);   // will print the whole context of the object
+        console.log(this);   // will print the whole context of the object
     }
 }
 
@@ -22,18 +22,18 @@ const user = {
 // const id = 'id-001'
 // function chai(){
 //     let username = 'Mohit'
-//     // console.log(this);
-//     // console.log(this.id);     // will give "Undefined" because we can not access, with this in Functions.
-//     // console.log(this.username);   // will give "Undefined" because we can not access, with this in Functions.
+//     console.log(this);
+//     console.log(this.id);     // will give "Undefined" because we can not access, with 'this' in Functions.
+//     console.log(this.username);   // will give "Undefined" because we can not access, with 'this' in Functions.
 // }
 // chai()
 
 // const id = '002'
 // const chai = function(){
 //     const username = 'Mohit'
-//     // console.log(this);
-//     // console.log(this.id);          // same is with this type of Function.
-//     // console.log(this.username);    // same is with this type of Function.
+//     console.log(this);
+//     console.log(this.id);          // same is with this type of Function.
+//     console.log(this.username);    // same is with this type of Function.
 // }
 // chai()
 
@@ -65,7 +65,7 @@ const addTwo = (num1, num2) => {
 
 
 
-// >>>>>>>  Implicit Arrow Function
+// >>>>>>>  Implicit return Arrow Function
 
 
 // const add3 = (num) => `${num + 3}, Thala for a Reason.`
@@ -83,4 +83,4 @@ const addTwo = (num1, num2) => {
 // console.log(show());  //will give undefined
 
 const show = () => ({username:'Mohit'})
-console.log(show());   // will run successfully
+// console.log(show());   // will run successfully

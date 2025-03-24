@@ -36,9 +36,9 @@ const dc_Heros = ["Batman", "Superman", "Shazam" ]
 
 //  handeling of multi-dimensional 
 
-// const myArr = [1,2,3, [4,5,6], [7,8, [ 9,10,11,12 ] ] ]
+// const myArr = [1,2,3, [4,5,6], [7,[ 9,10,11,12 ],8,15] ]
 
-// const newArr = myArr.flat(Infinity)   // this method seperates all the elelments into a single unit , we have to enter a depth till which we want to flatten.
+// const newArr = myArr.flat(1)   // this method seperates all the elelments into a single unit , we have to enter a depth till which we want to flatten.
 // console.log(newArr);
 
 
@@ -46,6 +46,13 @@ const dc_Heros = ["Batman", "Superman", "Shazam" ]
 // console.log(Array.isArray("Mohit"));    // check if it is a array.
 // console.log(Array.from("Mohit"));       // converts a the given string or object into an array.
 // console.log(Array.from({name:"Mohit"}));  // converts a the given string or object into an array.
+
+// myObj = {
+//     name:'Mohit',
+//     age: 24,
+//     city: 'Jaipur'
+// }
+// console.log(Array.from(Object.values(myObj)));  // converts a the given string or object into an array.
 
 
 
