@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Claculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Body Mass Index - Calculator</h1>
+    <div class="container">
+        <form>
+            <p><label>Enter Height: </label><input type="text" placeholder="in CM" id="height"></p>
+            <p><label>Enter Weight: </label><input type="text" placeholder="in KG" id="weight"></p>
+            <button>Calculate</button>
+            <div id="result"></div>
+            <div id="wight-guide">
+                <h3>BMI wight guide:</h3>
+                <p>Under wight = less than 18.6</p>
+                <p>Normal range = 18.6 to 24.9</p>
+                <p>Overwight = Greater than 24.9</p>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
